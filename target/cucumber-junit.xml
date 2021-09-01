@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.004062">
+    <testcase classname="verify user landed on Home Page after Login and profile displayed after click on profile"
+              name="User landed on home page and click on profile" time="0.004062">
+        <system-out><![CDATA[Given user logged in........................................................passed
+When click profile tab......................................................passed
+Then profile tab is opened..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

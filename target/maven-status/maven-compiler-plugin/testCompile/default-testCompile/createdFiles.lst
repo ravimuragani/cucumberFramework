@@ -1,0 +1,4 @@
+stepDefinition\HooksExample.class
+stepDefinition\TestRunner.class
+stepDefinition\LoginSteps.class
+stepDefinition\HomeSteps.class

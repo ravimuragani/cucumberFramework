@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 625100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksExample.startUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User landed on home page and click on profile",
+        "description": "",
+        "id": "verify-user-landed-on-home-page-after-login-and-profile-displayed-after-click-on-profile;user-landed-on-home-page-and-click-on-profile",
+        "after": [
+          {
+            "result": {
+              "duration": 44700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksExample.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 492900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user logged in",
+            "match": {
+              "location": "HomeSteps.user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click profile tab",
+            "match": {
+              "location": "HomeSteps.click_profile_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "profile tab is opened",
+            "match": {
+              "location": "HomeSteps.profile_tab_is_opened()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "verify user landed on Home Page after Login and profile displayed after click on profile",
+    "description": "",
+    "id": "verify-user-landed-on-home-page-after-login-and-profile-displayed-after-click-on-profile",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/org/automation/features/Home.feature",
+    "tags": []
+  }
+]
